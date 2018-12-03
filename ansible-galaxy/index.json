@@ -1,0 +1,32 @@
+{
+  "title": "Ansible Galaxy Scenario",
+  "description": "Introduction to 'ansible-galaxy' command line",
+  "difficulty": "beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+      "title": "Step 1 - Installation",
+      "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Your first role",
+        "text": "step2.md"
+        }
+  ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mStart playing with ansible-galaxy\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
